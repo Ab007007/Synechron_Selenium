@@ -10,6 +10,22 @@ public class Person {
 		public static String country = "India";
 		public static final boolean isHuman =true;
 		
+		public Person(String name, int age, double ht, double wt)
+		{
+			this.name = name;
+			this.age = age;
+			this.height = ht;
+			this.weight = wt;
+			
+		}
+		
+		public Person()
+		{
+//			super();
+			System.out.println("Object created with default constructor");
+		}
+		
+		
 		public void printPerson()
 		{
 			System.out.println("Name : " + name);

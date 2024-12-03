@@ -1,6 +1,6 @@
 package com.synechron.training.basics.variables;
 
-public class PersonManager 
+public class PersonManager
 {
 
 	static Person p1,p2,p3;
@@ -26,7 +26,7 @@ public class PersonManager
 		p2.printPerson();
 		
 		
-		p3 = new Person();
+		p3 = new Person("Hary", 40, 5.2, 85);
 		p3.printPerson();
 		
 		
