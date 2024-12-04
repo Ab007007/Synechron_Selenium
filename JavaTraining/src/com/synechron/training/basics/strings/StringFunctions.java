@@ -5,9 +5,32 @@ import java.util.Iterator;
 public class StringFunctions {
 	
 	static String emailID = "aru03.info@gmail.com";
+	static String emailObj = new String("Aru03.info@gmail.com");
+	
+	static String employeeDetails= "Name=Aravinda;EmployeeID=EMP123;Company=Synechron;Location=Bangalore";
 	
 	public static void main(String[] args) 
 	{
+		String[] employeeArray=employeeDetails.split(";");
+		for(int i=0;i<employeeArray.length;i++)
+		{
+			System.out.println(employeeArray[i].split("=")[1]);
+		}
+	
+		System.out.println("using substring *******************************");
+		for(int i=0;i<employeeArray.length;i++)
+		{
+			
+			System.out.println(employeeArray[i].substring
+					(employeeArray[i].indexOf("=")+1, employeeArray[i].length()));
+		}
+		
+		
+		
+		for(String str:employeeArray)
+		{
+			System.out.println(str);
+		}
 		
 		System.out.println("Index of char a  :  " + emailID.indexOf("a"));
 		//System.out.println("Index of char a  :  " + emailID.indexOf("Z"));
@@ -29,10 +52,25 @@ public class StringFunctions {
 		
 		String[] strings = emailID.split("@");
 		
-		for (int i = 0; i < strings.length; i++) {
-			System.out.println(strings[i]);
-			
-		}
+//		for (int i = 0; i < strings.length; i++) {
+//			System.out.println(strings[i]);
+//			
+//		}
+		
+		System.out.println(strings[1].substring(0, strings[1].indexOf(".")));
+		
+		System.out.println(emailID.toUpperCase());
+		System.out.println(emailID.toLowerCase());
+		System.out.println("EQUALS " + emailID.equals(emailObj));
+		System.out.println("EQUALSIGNORECASE " + emailID.equalsIgnoreCase(emailObj));
+		
+		
+		System.out.println(emailID.endsWith(".com"));
+		
+		System.out.println(emailID.startsWith("a"));
+		
+		//String age = "40";
+
 		
 		
 	}
