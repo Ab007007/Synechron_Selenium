@@ -1,0 +1,11 @@
+<span id="counter">5</span>
+<script type="text/javascript">
+function countdown() {
+    var i = document.getElementById('counter');
+    if (parseInt(i.innerHTML)<=0) {
+        document.write("welcome")
+    }
+    i.innerHTML = parseInt(i.innerHTML)-1;
+}
+setInterval(function(){ countdown(); },1000);
+</script>

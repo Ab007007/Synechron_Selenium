@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the Start button to output "Hello" after 3 seconds.</p>
+
+<p>In this example, we also output the parameters that were passed to the alertFunc() function (does not work in IE9 and earlier).</p>
+
+<button onclick="myStartFunction()">Start</button>
+
+<p id="demo"></p>
+
+<p id="demo2" style="color:red;"></p>
+
+<script>
+var myVar;
+
+function myStartFunction() {
+    myVar = setTimeout(alertFunc, 3000, "First parameter", "Second parameter");
+}
+
+function alertFunc(param1, param2) {
+    document.getElementById("demo").innerHTML += "Hello ";
+
+    document.getElementById("demo2").innerHTML = "Parameters passed to alertFunc(): <br>" 
+    + param1 + "<br>" + param2 + "<br>";
+}
+</script>
+
+</body>
+</html>

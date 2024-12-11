@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        
+            function showButton()
+            {
+                document.getElementById("btnContinue").style.visibility = "visible";
+            }
+        
+            function hideButton()
+            {
+                document.getElementById("btnContinue").style.visibility = "hidden";
+            }
+        
+            window.onload = function()
+            {
+                hideButton();
+                setTimeout('showButton()', 5000);
+            }
+			function goToURLbcci()
+			{
+				document.open("https://www.google.com");
+			}
+        
+        </script>
+    </head>
+    <body>
+        <input type="button" id="btnContinue" value="Continue" onclick="goToURLbcci()" />
+    </body>
+</html>

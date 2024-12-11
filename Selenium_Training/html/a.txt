@@ -1,0 +1,15 @@
+Branch RPM 
+
+gradle ->produce ISO -->with venkat and see how to fix
+
+if no then do it in rake (plugin)
+
+if existing or written then we can use it
+
+start with there if not merged yet to dev-ehl-integration
+
+rake runs, release gates add a task to run firewall scriptSMTP (dynamicf
+
+hook it to the task that start gate3_halt and hast
+
+varification -> doesnt have unexpected error and warnings
