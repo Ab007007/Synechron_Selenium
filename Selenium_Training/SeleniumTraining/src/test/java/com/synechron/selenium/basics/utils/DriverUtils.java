@@ -86,17 +86,20 @@ public class DriverUtils {
     }
 
     public void type(String locator, String value, String text) {
+        System.out.println("Entering type on WebElement using locator: " + locator + " with value: " + value + " and text: " + text);
         WebElement element = getWebElement(locator, value);
         element.clear();
         element.sendKeys(text);
     }
 
     public void click(String locator, String value) {
+        System.out.println("Performing Click on WebElement using locator: " + locator + " with value: " + value);
         WebElement element = getWebElement(locator, value);
         element.click();
     }
 
     public String getText(String locator, String value) {
+        System.out.println("Getting Text on WebElement using locator: " + locator + " with value: " + value);
         WebElement element = getWebElement(locator, value);
         String text = element.getText();
         return text;
@@ -106,10 +109,5 @@ public class DriverUtils {
         String attrValue =  element.getDomAttribute(attribute);
         System.out.println("Attribute Value : " + attrValue);
         return attrValue;
-
-
-
-
-
     }
 }
