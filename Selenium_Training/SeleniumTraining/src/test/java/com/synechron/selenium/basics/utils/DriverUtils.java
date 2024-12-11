@@ -15,6 +15,10 @@ import java.util.List;
 public class DriverUtils {
     public WebDriver driver = null;
 
+    /***
+     *
+     * @return
+     */
     public WebDriver getDriver() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -22,6 +26,11 @@ public class DriverUtils {
         return driver;
     }
 
+    /***
+     *
+     * @param browser - chrome,firefox,ie,edge
+     * @return - returns browser object
+     */
     public WebDriver getDriver(String browser) {
         switch (browser) {
             case "chrome":

@@ -1,6 +1,7 @@
 package com.synechron.selenium.basics.actions;
 
 import com.synechron.selenium.basics.utils.ApplicationUtils;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.SourceType;
@@ -71,4 +72,17 @@ public class ActiondDemo extends ApplicationUtils {
     }
 
 
+
+
+
+    @Test
+    public void miscDemo() throws InterruptedException {
+
+        launchApplication("https://www.flipkart.com/");
+        driver.switchTo().frame(0);
+        WebElement sourceElement = getWebElement("id","misc");
+        WebElement destElement = getWebElement("id","misc");
+        Actions actions = new Actions(driver);
+        actions.sendKeys(Keys.ALT).sendKeys(Keys.CONTROL).sendKeys(Keys.ARROW_LEFT).build().perform();
+    }
 }
