@@ -52,7 +52,7 @@ public class DriverUtils {
     public WebElement getWebElement(String locator,String value ) {
         System.out.println("Finding Element: " + locator + " with value: " + value);
         WebElement element = null;
-        switch (locator) {
+        switch (locator.toLowerCase()) {
             case "id":
                 element = driver.findElement(By.id(value));
                 break;
@@ -65,16 +65,16 @@ public class DriverUtils {
             case "xpath":
                 element = driver.findElement(By.xpath(value));
                 break;
-            case "linkText":
+            case "linktext":
                 element = driver.findElement(By.linkText(value));
                 break;
-            case "cssSelector":
+            case "cssselector":
                 element = driver.findElement(By.cssSelector(value));
                 break;
-            case "tagName":
+            case "tagname":
                 element = driver.findElement(By.tagName(value));
                 break;
-            case "partialLinkText":
+            case "partiallinktext":
                 element = driver.findElement(By.partialLinkText(value));
                 break;
             default:
