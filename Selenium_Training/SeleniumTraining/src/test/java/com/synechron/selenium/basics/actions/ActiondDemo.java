@@ -3,10 +3,14 @@ package com.synechron.selenium.basics.actions;
 import com.synechron.selenium.basics.utils.ApplicationUtils;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.SourceType;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
+//setTimeout(function() {debugger;},6000)
 public class ActiondDemo extends ApplicationUtils {
 
     @BeforeMethod
@@ -30,18 +34,39 @@ public class ActiondDemo extends ApplicationUtils {
         Actions actions = new Actions(driver);
         actions.moveToElement(fashion).perform();
         Thread.sleep(3000);
+        printItemsFromFK();
+
         actions.moveToElement(electronics).perform();
         Thread.sleep(3000);
+        printItemsFromFK();
+
         actions.moveToElement(home).perform();
         Thread.sleep(3000);
+        printItemsFromFK();
+
         actions.moveToElement(toys).perform();
         Thread.sleep(3000);
+        printItemsFromFK();
 
+    }
 
+    @Test
+    public void dragAndDropDemo() throws InterruptedException {
+        launchApplication("https://jqueryui.com/droppable/");
+        driver.switchTo().frame(0);
+        WebElement sourceElement = getWebElement("id","draggable");
+        WebElement destElement = getWebElement("id","droppable");
 
+        System.out.println("Before drag and drop");
+        System.out.println("Source TExt " + sourceElement.getText());
+        System.out.println("Dest TExt " + destElement.getText());
 
+        Actions actions = new Actions(driver);
+        actions.dragAndDrop(sourceElement, destElement).perform();
 
-
+        System.out.println("Before drag and drop AFTER ");
+        System.out.println("Source TExt " + sourceElement.getText());
+        System.out.println("Dest TExt " + destElement.getText());
 
     }
 

@@ -10,6 +10,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
+import java.util.List;
 
 public class DriverUtils {
     public WebDriver driver = null;
@@ -50,6 +51,42 @@ public class DriverUtils {
         }
     }
 
+    public List<WebElement> getWebElements(String locator, String value ) {
+        System.out.println("Finding Element: " + locator + " with value: " + value);
+        List<WebElement> elements = null;
+        switch (locator.toLowerCase()) {
+            case "id":
+                elements = driver.findElements(By.id(value));
+                break;
+            case "name":
+                elements = driver.findElements(By.name(value));
+                break;
+            case "classname":
+                elements = driver.findElements(By.className(value));
+                break;
+            case "xpath":
+                elements = driver.findElements(By.xpath(value));
+                break;
+            case "linktext":
+                elements = driver.findElements(By.linkText(value));
+                break;
+            case "cssselector":
+                elements = driver.findElements(By.cssSelector(value));
+                break;
+            case "tagname":
+                elements = driver.findElements(By.tagName(value));
+                break;
+            case "partiallinktext":
+                elements = driver.findElements(By.partialLinkText(value));
+                break;
+            default:
+                System.out.println("you have entered wrong locator" + locator);
+                break;
+        }
+
+        return elements;
+    }
+
     public WebElement getWebElement(String locator,String value ) {
         System.out.println("Finding Element: " + locator + " with value: " + value);
         WebElement element = null;
@@ -85,6 +122,8 @@ public class DriverUtils {
 
         return element;
     }
+
+
 
     public void type(String locator, String value, String text) {
         System.out.println("Entering type on WebElement using locator: " + locator + " with value: " + value + " and text: " + text);
