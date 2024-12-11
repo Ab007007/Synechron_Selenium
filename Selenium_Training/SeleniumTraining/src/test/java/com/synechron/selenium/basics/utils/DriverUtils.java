@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 
@@ -59,7 +60,7 @@ public class DriverUtils {
             case "name":
                 element = driver.findElement(By.name(value));
                 break;
-            case "class":
+            case "classname":
                 element = driver.findElement(By.className(value));
                 break;
             case "xpath":
@@ -109,5 +110,39 @@ public class DriverUtils {
         String attrValue =  element.getDomAttribute(attribute);
         System.out.println("Attribute Value : " + attrValue);
         return attrValue;
+    }
+
+
+    public void selectCheckbox(String locator, String value) {
+        System.out.println("Selecting checkbox using locator: " + locator + " with value: " + value);
+        WebElement element = getWebElement(locator, value);
+        if(!element.isSelected()) {
+            element.click();
+        }
+        else {
+            System.out.println("Element is already selected");
+        }
+    }
+
+    public void selectDropdown(String locator, String value,String type,String typeValue) {
+        System.out.println("Selecting dropdown using locator: " + locator + " with value: " + value);
+        Select select = new Select(getWebElement(locator, value));
+        switch (type) {
+            case "index" :
+                select.selectByIndex(Integer.parseInt(typeValue));
+                break;
+            case "value" :
+                select.selectByValue(typeValue);
+                break;
+            case "visibletext" :
+                select.selectByVisibleText(typeValue);
+                break;
+            default:
+                System.out.println("You have entered wrong locator" + locator);
+                break;
+
+        }
+
+
     }
 }
