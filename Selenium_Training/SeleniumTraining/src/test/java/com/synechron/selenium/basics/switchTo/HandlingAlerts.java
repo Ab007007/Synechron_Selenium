@@ -20,5 +20,25 @@ public class HandlingAlerts {
         driver.switchTo().alert().accept();
         Thread.sleep(5000);
 
+        driver.close();
+
+    }
+
+
+    @Test
+    public void alertWithTextBoxDemo() throws InterruptedException {
+        ApplicationUtils utils = new ApplicationUtils();
+        WebDriver driver = null;
+        driver = utils.getDriver();
+        utils.launchApplication("file:///C:/Trainings/Synechron_02_12/Selenium_Training/html/AlertWithInput.html");
+        utils.click("tagname","button");
+        driver.switchTo().alert().sendKeys("TEST");
+        Thread.sleep(5000);
+        driver.switchTo().alert().accept();
+        System.out.println(utils.getText("id","demo"));
+        Thread.sleep(5000);
+        driver.close();
+
+
     }
 }
