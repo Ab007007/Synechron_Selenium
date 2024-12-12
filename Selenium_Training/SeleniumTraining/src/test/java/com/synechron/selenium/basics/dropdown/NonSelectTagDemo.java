@@ -1,6 +1,7 @@
 package com.synechron.selenium.basics.dropdown;
 
 import com.synechron.selenium.basics.utils.ApplicationUtils;
+import com.synechron.selenium.basics.utils.ConfigReader;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
@@ -11,9 +12,9 @@ public class NonSelectTagDemo extends ApplicationUtils {
 
     @Test
     public void dropDowntest() {
-        getDriver();
+        getDriver(ConfigReader.getConfigValue("browser"));
 
-        launchApplication("https://formy-project.herokuapp.com/dropdown");
+        launchApplication( ConfigReader.getConfigValue("formyurl")+ "dropdown");
         click("id", "dropdownMenuButton");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(getWebElement("xpath", "//div[@class='dropdown-menu show']/a[text()='File Upload']")));
@@ -24,8 +25,8 @@ public class NonSelectTagDemo extends ApplicationUtils {
 
     @Test
     public void dropDownUsingSelect() throws InterruptedException {
-        getDriver();
-        launchApplication("http://formy-project.herokuapp.com/form");
+        getDriver(ConfigReader.getConfigValue("browser"));
+        launchApplication(ConfigReader.getConfigValue("formyurl")+"form");
         type("id", "first-name", "Aravinda");
         type("id", "last-name", "H");
         type("id", "job-title", "Trainer");

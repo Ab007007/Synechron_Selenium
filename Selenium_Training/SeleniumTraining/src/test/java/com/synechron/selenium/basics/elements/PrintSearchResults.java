@@ -13,8 +13,8 @@ public class PrintSearchResults extends DriverUtils {
     public void printSearchResults() {
         driver = getDriver("edge");
         driver.get("https://www.google.com/");
-        type("name","q","Synechron");
-        click("xpath","//div[@class='FPdoLc lJ9FBc']//input[@name='btnK']");
+        type("name", "q", "Synechron");
+        click("xpath", "//div[@class='FPdoLc lJ9FBc']//input[@name='btnK']");
         List<WebElement> headings = driver.findElements(By.xpath("h3"));
         for (WebElement heading : headings) {
             System.out.println(heading.getText());

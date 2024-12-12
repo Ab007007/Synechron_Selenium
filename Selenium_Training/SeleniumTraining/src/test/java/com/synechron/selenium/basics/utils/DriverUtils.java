@@ -22,7 +22,8 @@ public class DriverUtils {
     public WebDriver getDriver() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        String timeout = ConfigReader.getConfigValue("timeout");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(timeout)));
         return driver;
     }
 
@@ -50,7 +51,7 @@ public class DriverUtils {
                     break;
         }
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(ConfigReader.getConfigValue("timeout"))));
         return driver;
     }
 

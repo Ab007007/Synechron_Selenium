@@ -1,6 +1,7 @@
 package com.synechron.selenium.basics.actions;
 
 import com.synechron.selenium.basics.utils.ApplicationUtils;
+import com.synechron.selenium.basics.utils.ConfigReader;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -16,7 +17,7 @@ public class ActiondDemo extends ApplicationUtils {
 
     @BeforeMethod
     public void setUp() {
-        getDriver();
+        getDriver(ConfigReader.getConfigValue("browser"));
     }
 
     @AfterMethod
@@ -53,7 +54,7 @@ public class ActiondDemo extends ApplicationUtils {
 
     @Test
     public void dragAndDropDemo() throws InterruptedException {
-        launchApplication("https://jqueryui.com/droppable/");
+        launchApplication(ConfigReader.getConfigValue("jurl") + "/droppable" );
         driver.switchTo().frame(0);
         WebElement sourceElement = getWebElement("id","draggable");
         WebElement destElement = getWebElement("id","droppable");
@@ -90,7 +91,9 @@ public class ActiondDemo extends ApplicationUtils {
 
     @Test
     public void dragAndDrop() throws InterruptedException {
-        launchApplication("https://jqueryui.com/draggable/");
+        launchApplication(ConfigReader.getConfigValue("jurl") + "/draggable" );
+
+//        launchApplication("https://jqueryui.com/draggable/");
         driver.switchTo().frame(0);
         WebElement sourceElement = getWebElement("id","draggable");
         Actions actions = new Actions(driver);
