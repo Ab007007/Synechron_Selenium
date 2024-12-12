@@ -85,4 +85,19 @@ public class ActiondDemo extends ApplicationUtils {
         Actions actions = new Actions(driver);
         actions.sendKeys(Keys.ALT).sendKeys(Keys.CONTROL).sendKeys(Keys.ARROW_LEFT).build().perform();
     }
+
+
+
+    @Test
+    public void dragAndDrop() throws InterruptedException {
+        launchApplication("https://jqueryui.com/draggable/");
+        driver.switchTo().frame(0);
+        WebElement sourceElement = getWebElement("id","draggable");
+        Actions actions = new Actions(driver);
+        actions.clickAndHold(sourceElement).perform();
+        actions.moveByOffset(sourceElement.getLocation().getX()+50, sourceElement.getLocation().getY()+100);
+       // actions.moveToLocation(sourceElement.getLocation().getX(), sourceElement.getLocation().getY() + 100).perform();
+        actions.release(sourceElement).perform();
+        Thread.sleep(10000);
+    }
 }
