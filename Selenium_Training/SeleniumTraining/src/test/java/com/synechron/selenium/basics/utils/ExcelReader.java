@@ -57,6 +57,12 @@ public class ExcelReader {
          cell = row.getCell(colNum);
         return cell;
     }
+
+    public static String getCellValue(Cell cell) {
+        System.out.println("Cell type " + cell.getCellType());
+        return cell.getStringCellValue();
+    }
+
     public static void main(String[] args) throws IOException {
 
         Workbook wb = null;
@@ -65,17 +71,16 @@ public class ExcelReader {
         int  rowCount = sheet.getLastRowNum();
         System.out.println("Row count: " + (rowCount+1));
         Row row = null;
+        int columnCount=0;
         Cell cell = null;
         for (int i = 0; i < rowCount+1 ; i++)
         {
             row = sheet.getRow(i);
-            System.out.print(row.getCell(0) + " |");
-            System.out.print(row.getCell(1)+ " |");
-            System.out.print(row.getCell(2)+ " |");
-            System.out.print(row.getCell(3)+ " |");
-            System.out.print(row.getCell(4)+ " |");
-            System.out.print(row.getCell(5)+ " |");
-            System.out.print(row.getCell(6)+ " |");
+           columnCount = row.getLastCellNum();
+            for (int j = 0; j < columnCount; j++)
+            {
+                System.out.print(row.getCell(j).toString() + " - " + row.getCell(j).getCellType() + " | ");
+            }
             System.out.println();
         }
 

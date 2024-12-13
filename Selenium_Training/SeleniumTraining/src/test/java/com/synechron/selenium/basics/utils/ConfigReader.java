@@ -20,6 +20,7 @@ public class ConfigReader {
         try {
             prop.load(fis);
             value = prop.getProperty(key);
+            System.out.println("Config Value: " + value);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
