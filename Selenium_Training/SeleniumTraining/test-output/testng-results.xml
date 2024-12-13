@@ -1,61 +1,888 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="34" passed="29" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-13T12:38:56 IST" name="Default Suite" finished-at="2024-12-13T12:38:56 IST" duration-ms="57">
+  <suite started-at="2024-12-13T13:10:11 IST" name="Default Suite" finished-at="2024-12-13T13:15:16 IST" duration-ms="304961">
     <groups>
     </groups>
-    <test started-at="2024-12-13T12:38:56 IST" name="SeleniumTraining" finished-at="2024-12-13T12:38:56 IST" duration-ms="57">
+    <test started-at="2024-12-13T13:10:11 IST" name="SeleniumTraining" finished-at="2024-12-13T13:15:16 IST" duration-ms="304961">
+      <class name="com.synechron.selenium.basics.switchTo.HandlingAlerts">
+        <test-method signature="alertWithTextBoxDemo()[pri:0, instance:com.synechron.selenium.basics.switchTo.HandlingAlerts@2c34f934]" started-at="2024-12-13T13:14:14 IST" name="alertWithTextBoxDemo" finished-at="2024-12-13T13:14:30 IST" duration-ms="15968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertWithTextBoxDemo -->
+        <test-method signature="handleAlertsDemo()[pri:0, instance:com.synechron.selenium.basics.switchTo.HandlingAlerts@2c34f934]" started-at="2024-12-13T13:14:30 IST" name="handleAlertsDemo" finished-at="2024-12-13T13:14:47 IST" duration-ms="16255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleAlertsDemo -->
+      </class> <!-- com.synechron.selenium.basics.switchTo.HandlingAlerts -->
+      <class name="com.synechron.selenium.basics.tooltip.ValidateToolTip">
+        <test-method signature="validateToolTip()[pri:0, instance:com.synechron.selenium.basics.tooltip.ValidateToolTip@1e67a849]" started-at="2024-12-13T13:11:51 IST" name="validateToolTip" finished-at="2024-12-13T13:11:59 IST" duration-ms="8075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToolTip -->
+      </class> <!-- com.synechron.selenium.basics.tooltip.ValidateToolTip -->
+      <class name="com.synechron.selenium.basics.dropdown.NonSelectTagDemo">
+        <test-method signature="dropDownUsingSelect()[pri:0, instance:com.synechron.selenium.basics.dropdown.NonSelectTagDemo@5ea434c8]" started-at="2024-12-13T13:12:55 IST" name="dropDownUsingSelect" finished-at="2024-12-13T13:13:05 IST" duration-ms="10356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownUsingSelect -->
+        <test-method signature="dropDowntest()[pri:0, instance:com.synechron.selenium.basics.dropdown.NonSelectTagDemo@5ea434c8]" started-at="2024-12-13T13:13:05 IST" name="dropDowntest" finished-at="2024-12-13T13:13:13 IST" duration-ms="7390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDowntest -->
+      </class> <!-- com.synechron.selenium.basics.dropdown.NonSelectTagDemo -->
+      <class name="com.synechron.selenium.basics.switchTo.HandlingMultiBrowser">
+        <test-method signature="validateMultipleBrowsers()[pri:0, instance:com.synechron.selenium.basics.switchTo.HandlingMultiBrowser@2ed0fbae]" started-at="2024-12-13T13:14:58 IST" name="validateMultipleBrowsers" finished-at="2024-12-13T13:15:16 IST" duration-ms="18390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleBrowsers -->
+      </class> <!-- com.synechron.selenium.basics.switchTo.HandlingMultiBrowser -->
+      <class name="com.synechron.selenium.basics.AutoSuggestions">
+        <test-method signature="testAutoSuggestions()[pri:0, instance:com.synechron.selenium.basics.AutoSuggestions@2bbaf4f0]" started-at="2024-12-13T13:10:11 IST" name="testAutoSuggestions" finished-at="2024-12-13T13:10:21 IST" duration-ms="10011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutoSuggestions -->
+      </class> <!-- com.synechron.selenium.basics.AutoSuggestions -->
+      <class name="com.synechron.selenium.basics.data.RegisterCustomer">
+        <test-method signature="dropDownUsingSelect()[pri:0, instance:com.synechron.selenium.basics.data.RegisterCustomer@4ae3c1cd]" started-at="2024-12-13T13:13:13 IST" name="dropDownUsingSelect" finished-at="2024-12-13T13:13:28 IST" duration-ms="15408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownUsingSelect -->
+      </class> <!-- com.synechron.selenium.basics.data.RegisterCustomer -->
+      <class name="com.synechron.selenium.basics.waits.WebDriverWaitDemo">
+        <test-method is-config="true" signature="prepare()[pri:0, instance:com.synechron.selenium.basics.waits.WebDriverWaitDemo@3444d69d]" started-at="2024-12-13T13:10:21 IST" name="prepare" finished-at="2024-12-13T13:10:25 IST" duration-ms="3584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method signature="fluentWaitDemo()[pri:0, instance:com.synechron.selenium.basics.waits.WebDriverWaitDemo@3444d69d]" started-at="2024-12-13T13:10:25 IST" name="fluentWaitDemo" finished-at="2024-12-13T13:10:28 IST" duration-ms="3382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fluentWaitDemo -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.synechron.selenium.basics.waits.WebDriverWaitDemo@3444d69d]" started-at="2024-12-13T13:10:28 IST" name="cleanUp" finished-at="2024-12-13T13:10:30 IST" duration-ms="1444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="prepare()[pri:0, instance:com.synechron.selenium.basics.waits.WebDriverWaitDemo@3444d69d]" started-at="2024-12-13T13:10:30 IST" name="prepare" finished-at="2024-12-13T13:10:34 IST" duration-ms="4325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method signature="fluentwaitDemo2()[pri:0, instance:com.synechron.selenium.basics.waits.WebDriverWaitDemo@3444d69d]" started-at="2024-12-13T13:10:34 IST" name="fluentwaitDemo2" finished-at="2024-12-13T13:11:34 IST" duration-ms="60285" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for com.synechron.selenium.basics.waits.WebDriverWaitDemo$2@6e0ff644 (tried for 60 second(s) with 100 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.synechron.selenium.basics.waits.WebDriverWaitDemo$2@6e0ff644 (tried for 60 second(s) with 100 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.synechron.selenium.basics.waits.WebDriverWaitDemo.fluentwaitDemo2(WebDriverWaitDemo.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7190d82a6008eb38c46b3704a3aef3d0, getElementText {id=f.9C5B0173577E7F2D43B076B438DBBA0E.d.57F9E1966EF7D9215B9930C465EE7C56.e.2}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60584}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60584/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7190d82a6008eb38c46b3704a3aef3d0)] -> id: counter]
+Session ID: 7190d82a6008eb38c46b3704a3aef3d0
+at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+at com.synechron.selenium.basics.waits.WebDriverWaitDemo$2.apply(WebDriverWaitDemo.java:90)
+at com.synechron.selenium.basics.waits.WebDriverWaitDemo$2.apply(WebDriverWaitDemo.java:88)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fluentwaitDemo2 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.synechron.selenium.basics.waits.WebDriverWaitDemo@3444d69d]" started-at="2024-12-13T13:11:34 IST" name="cleanUp" finished-at="2024-12-13T13:11:36 IST" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="prepare()[pri:0, instance:com.synechron.selenium.basics.waits.WebDriverWaitDemo@3444d69d]" started-at="2024-12-13T13:11:36 IST" name="prepare" finished-at="2024-12-13T13:11:39 IST" duration-ms="3771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method signature="webDriverWaitDemo()[pri:0, instance:com.synechron.selenium.basics.waits.WebDriverWaitDemo@3444d69d]" started-at="2024-12-13T13:11:39 IST" name="webDriverWaitDemo" finished-at="2024-12-13T13:11:50 IST" duration-ms="10613" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (04cd63879e15b74d6a490f20d637db50)] -> id: demo] (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (04cd63879e15b74d6a490f20d637db50)] -> id: demo] (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.synechron.selenium.basics.waits.WebDriverWaitDemo.webDriverWaitDemo(WebDriverWaitDemo.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [04cd63879e15b74d6a490f20d637db50, isElementDisplayed {id=f.F2E72A93A7A3CA9CB935E4074C67DADA.d.E4882975B28C5F592592B4A643F3E02B.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60865}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60865/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (04cd63879e15b74d6a490f20d637db50)] -> id: demo]
+Session ID: 04cd63879e15b74d6a490f20d637db50
+at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriverWaitDemo -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.synechron.selenium.basics.waits.WebDriverWaitDemo@3444d69d]" started-at="2024-12-13T13:11:50 IST" name="cleanUp" finished-at="2024-12-13T13:11:51 IST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.synechron.selenium.basics.waits.WebDriverWaitDemo -->
       <class name="com.synechron.selenium.basics.testng.TestNGAllAnnotations">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="beforeSuite" finished-at="2024-12-13T12:38:56 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:10:11 IST" name="beforeSuite" finished-at="2024-12-13T13:10:11 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="beforeTest" finished-at="2024-12-13T12:38:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:10:11 IST" name="beforeTest" finished-at="2024-12-13T13:10:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="beforeClass" finished-at="2024-12-13T12:38:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="beforeClass" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="beforeMethod" finished-at="2024-12-13T12:38:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="beforeMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="test1" finished-at="2024-12-13T12:38:56 IST" duration-ms="1" status="PASS">
+        <test-method signature="test1()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="test1" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="afterMethod" finished-at="2024-12-13T12:38:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="afterMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="beforeMethod" finished-at="2024-12-13T12:38:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="beforeMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="test2" finished-at="2024-12-13T12:38:56 IST" duration-ms="1" status="PASS">
+        <test-method signature="test2(java.lang.String,int)[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="test2" data-provider="dpMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="afterMethod" finished-at="2024-12-13T12:38:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="afterMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="afterClass" finished-at="2024-12-13T12:38:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="beforeMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2(java.lang.String,int)[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="test2" data-provider="dpMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="afterMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="beforeMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2(java.lang.String,int)[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="test2" data-provider="dpMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="beforeMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="afterMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test2(java.lang.String,int)[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="test2" data-provider="dpMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="afterMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="beforeMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2(java.lang.String,int)[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="test2" data-provider="dpMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="afterMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test2(java.lang.String,int)[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="test2" data-provider="dpMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="beforeMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="beforeMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="afterMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test2(java.lang.String,int)[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="test2" data-provider="dpMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="afterMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test2(java.lang.String,int)[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="test2" data-provider="dpMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="beforeMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="afterClass" finished-at="2024-12-13T13:11:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="afterTest" finished-at="2024-12-13T12:38:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:11:51 IST" name="afterMethod" finished-at="2024-12-13T13:11:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:15:16 IST" name="afterTest" finished-at="2024-12-13T13:15:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@29ba4338]" started-at="2024-12-13T12:38:56 IST" name="afterSuite" finished-at="2024-12-13T12:38:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.synechron.selenium.basics.testng.TestNGAllAnnotations@c540f5a]" started-at="2024-12-13T13:15:16 IST" name="afterSuite" finished-at="2024-12-13T13:15:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.synechron.selenium.basics.testng.TestNGAllAnnotations -->
+      <class name="com.synechron.selenium.basics.js.JavaScriptDemo">
+        <test-method signature="scrollToElementUsingJS()[pri:0, instance:com.synechron.selenium.basics.js.JavaScriptDemo@2893de87]" started-at="2024-12-13T13:14:00 IST" name="scrollToElementUsingJS" finished-at="2024-12-13T13:14:08 IST" duration-ms="8178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToElementUsingJS -->
+        <test-method signature="scrollUsingJS()[pri:0, instance:com.synechron.selenium.basics.js.JavaScriptDemo@2893de87]" started-at="2024-12-13T13:14:08 IST" name="scrollUsingJS" finished-at="2024-12-13T13:14:14 IST" duration-ms="6651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollUsingJS -->
+      </class> <!-- com.synechron.selenium.basics.js.JavaScriptDemo -->
+      <class name="com.synechron.selenium.basics.switchTo.HandlingFrames">
+        <test-method signature="dragAndDropDemo()[pri:0, instance:com.synechron.selenium.basics.switchTo.HandlingFrames@240237d2]" started-at="2024-12-13T13:14:47 IST" name="dragAndDropDemo" finished-at="2024-12-13T13:14:58 IST" duration-ms="11147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropDemo -->
+      </class> <!-- com.synechron.selenium.basics.switchTo.HandlingFrames -->
+      <class name="com.synechron.selenium.basics.actions.ActiondDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:11:59 IST" name="setUp" finished-at="2024-12-13T13:12:03 IST" duration-ms="3340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dragAndDrop()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:12:03 IST" name="dragAndDrop" finished-at="2024-12-13T13:12:11 IST" duration-ms="8360" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [065b57fabc4832d3349ce9d5dfd1a644, get {url=http://jqueryui.com//draggable}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60996}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60996/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 065b57fabc4832d3349ce9d5dfd1a644]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [065b57fabc4832d3349ce9d5dfd1a644, get {url=http://jqueryui.com//draggable}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60996}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60996/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 065b57fabc4832d3349ce9d5dfd1a644
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+at com.synechron.selenium.basics.utils.ApplicationUtils.launchApplication(ApplicationUtils.java:12)
+at com.synechron.selenium.basics.actions.ActiondDemo.dragAndDrop(ActiondDemo.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:12:11 IST" name="tearDown" finished-at="2024-12-13T13:12:12 IST" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:12:12 IST" name="setUp" finished-at="2024-12-13T13:12:15 IST" duration-ms="3717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dragAndDropDemo()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:12:15 IST" name="dragAndDropDemo" finished-at="2024-12-13T13:12:19 IST" duration-ms="3724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:12:19 IST" name="tearDown" finished-at="2024-12-13T13:12:20 IST" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:12:20 IST" name="setUp" finished-at="2024-12-13T13:12:24 IST" duration-ms="3687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="miscDemo()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:12:24 IST" name="miscDemo" finished-at="2024-12-13T13:12:30 IST" duration-ms="5675" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[no such frame
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c806da1739694a1e95e2b6a99249f586, switchToFrame {id=0}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61122}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61122/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c806da1739694a1e95e2b6a99249f586]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: no such frame
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c806da1739694a1e95e2b6a99249f586, switchToFrame {id=0}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61122}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61122/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c806da1739694a1e95e2b6a99249f586
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1108)
+at com.synechron.selenium.basics.actions.ActiondDemo.miscDemo(ActiondDemo.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- miscDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:12:30 IST" name="tearDown" finished-at="2024-12-13T13:12:31 IST" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:12:31 IST" name="setUp" finished-at="2024-12-13T13:12:35 IST" duration-ms="3458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mouseMovementDemo()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:12:35 IST" name="mouseMovementDemo" finished-at="2024-12-13T13:12:54 IST" duration-ms="19063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseMovementDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.synechron.selenium.basics.actions.ActiondDemo@667a738]" started-at="2024-12-13T13:12:54 IST" name="tearDown" finished-at="2024-12-13T13:12:55 IST" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.synechron.selenium.basics.actions.ActiondDemo -->
+      <class name="com.synechron.selenium.basics.pom.test.FormyTest">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:40 IST" name="createDriver" finished-at="2024-12-13T13:13:44 IST" duration-ms="3934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:44 IST" name="setUp" finished-at="2024-12-13T13:13:45 IST" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterFormData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:45 IST" name="enterFormData" data-provider="formdata" finished-at="2024-12-13T13:13:49 IST" duration-ms="3488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aravinda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Trainer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFormData -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:49 IST" name="cleanup" finished-at="2024-12-13T13:13:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:49 IST" name="setUp" finished-at="2024-12-13T13:13:49 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterFormData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:49 IST" name="enterFormData" data-provider="formdata" finished-at="2024-12-13T13:13:51 IST" duration-ms="1273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Software Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFormData -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:51 IST" name="setUp" finished-at="2024-12-13T13:13:52 IST" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:51 IST" name="cleanup" finished-at="2024-12-13T13:13:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method signature="enterFormData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:52 IST" name="enterFormData" data-provider="formdata" finished-at="2024-12-13T13:13:54 IST" duration-ms="1848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohsen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Managers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFormData -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:54 IST" name="cleanup" finished-at="2024-12-13T13:13:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:54 IST" name="setUp" finished-at="2024-12-13T13:13:55 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterFormData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:55 IST" name="enterFormData" data-provider="formdata" finished-at="2024-12-13T13:13:56 IST" duration-ms="1255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Giri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFormData -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:56 IST" name="setUp" finished-at="2024-12-13T13:13:57 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:56 IST" name="cleanup" finished-at="2024-12-13T13:13:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method signature="enterFormData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:57 IST" name="enterFormData" data-provider="formdata" finished-at="2024-12-13T13:13:58 IST" duration-ms="1099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kavya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Director]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFormData -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:58 IST" name="cleanup" finished-at="2024-12-13T13:13:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.synechron.selenium.basics.pom.test.FormyTest@8e0379d]" started-at="2024-12-13T13:13:58 IST" name="tearDown" finished-at="2024-12-13T13:14:00 IST" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.synechron.selenium.basics.pom.test.FormyTest -->
+      <class name="com.synechron.selenium.basics.elements.PrintSearchResults">
+        <test-method signature="printSearchResults()[pri:0, instance:com.synechron.selenium.basics.elements.PrintSearchResults@568bf312]" started-at="2024-12-13T13:13:28 IST" name="printSearchResults" finished-at="2024-12-13T13:13:40 IST" duration-ms="11699" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwiBi9Ljn6SKAxUlIrkGHYSAG0cQ4dUDCBQ"> is not clickable at point (551, 330). Other element would receive the click: <div class="pcTkSc">...</div>
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2ac6ca045c940d28453ca181d267ef4a, clickElement {id=f.7A2F206639ACF0FDF8EE35DB8A0C3E28.d.B9A98EED8139DD159EAD15CD9CC800E2.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61537}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61537/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (2ac6ca045c940d28453ca181d267ef4a)] -> xpath: //div[@class='FPdoLc lJ9FBc']//input[@name='btnK']]
+Session ID: 2ac6ca045c940d28453ca181d267ef4a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwiBi9Ljn6SKAxUlIrkGHYSAG0cQ4dUDCBQ"> is not clickable at point (551, 330). Other element would receive the click: <div class="pcTkSc">...</div>
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2ac6ca045c940d28453ca181d267ef4a, clickElement {id=f.7A2F206639ACF0FDF8EE35DB8A0C3E28.d.B9A98EED8139DD159EAD15CD9CC800E2.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61537}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61537/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (2ac6ca045c940d28453ca181d267ef4a)] -> xpath: //div[@class='FPdoLc lJ9FBc']//input[@name='btnK']]
+Session ID: 2ac6ca045c940d28453ca181d267ef4a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.synechron.selenium.basics.utils.DriverUtils.click(DriverUtils.java:148)
+at com.synechron.selenium.basics.elements.PrintSearchResults.printSearchResults(PrintSearchResults.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printSearchResults -->
+      </class> <!-- com.synechron.selenium.basics.elements.PrintSearchResults -->
+      <class name="com.synechron.selenium.basics.testng.HelloWorldTestNG">
+        <test-method signature="testHelloWorld()[pri:0, instance:com.synechron.selenium.basics.testng.HelloWorldTestNG@4d339552]" started-at="2024-12-13T13:11:51 IST" name="testHelloWorld" finished-at="2024-12-13T13:11:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHelloWorld -->
+      </class> <!-- com.synechron.selenium.basics.testng.HelloWorldTestNG -->
     </test> <!-- SeleniumTraining -->
   </suite> <!-- Default Suite -->
 </testng-results>

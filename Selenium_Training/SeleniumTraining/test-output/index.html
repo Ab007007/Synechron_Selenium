@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Default Suite</span>
+              <span class="suite-name border-failed">Default Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">34 methods, 5 failed,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods failed suite-Default_Suite"> (hide)</a> <!-- hide-methods failed suite-Default_Suite -->
+                      <a href="#" panel-name="suite-Default_Suite" class="show-methods failed suite-Default_Suite"> (show)</a> <!-- show-methods failed suite-Default_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.actions.ActiondDemo" class="method navigator-link" hash-for-method="dragAndDrop">dragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.waits.WebDriverWaitDemo" class="method navigator-link" hash-for-method="fluentwaitDemo2">fluentwaitDemo2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.actions.ActiondDemo" class="method navigator-link" hash-for-method="miscDemo">miscDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.elements.PrintSearchResults" class="method navigator-link" hash-for-method="printSearchResults">printSearchResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.waits.WebDriverWaitDemo" class="method navigator-link" hash-for-method="webDriverWaitDemo">webDriverWaitDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +137,147 @@
                     <div class="method-list-content passed suite-Default_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.switchTo.HandlingAlerts" class="method navigator-link" hash-for-method="alertWithTextBoxDemo">alertWithTextBoxDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.actions.ActiondDemo" class="method navigator-link" hash-for-method="dragAndDropDemo">dragAndDropDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.switchTo.HandlingFrames" class="method navigator-link" hash-for-method="dragAndDropDemo">dragAndDropDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.dropdown.NonSelectTagDemo" class="method navigator-link" hash-for-method="dropDownUsingSelect">dropDownUsingSelect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.data.RegisterCustomer" class="method navigator-link" hash-for-method="dropDownUsingSelect">dropDownUsingSelect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.dropdown.NonSelectTagDemo" class="method navigator-link" hash-for-method="dropDowntest">dropDowntest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.pom.test.FormyTest" class="method navigator-link" hash-for-method="enterFormData(Harry, H, Software Engineer)">enterFormData(Harry, H, Software Engineer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.pom.test.FormyTest" class="method navigator-link" hash-for-method="enterFormData(Aravinda, H, Trainer)">enterFormData(Aravinda, H, Trainer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.pom.test.FormyTest" class="method navigator-link" hash-for-method="enterFormData(Kavya, K, Director)">enterFormData(Kavya, K, Director)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.pom.test.FormyTest" class="method navigator-link" hash-for-method="enterFormData(Mohsen, N, Managers)">enterFormData(Mohsen, N, Managers)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.pom.test.FormyTest" class="method navigator-link" hash-for-method="enterFormData(Giri, L, HR)">enterFormData(Giri, L, HR)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.waits.WebDriverWaitDemo" class="method navigator-link" hash-for-method="fluentWaitDemo">fluentWaitDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.switchTo.HandlingAlerts" class="method navigator-link" hash-for-method="handleAlertsDemo">handleAlertsDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.actions.ActiondDemo" class="method navigator-link" hash-for-method="mouseMovementDemo">mouseMovementDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.js.JavaScriptDemo" class="method navigator-link" hash-for-method="scrollToElementUsingJS">scrollToElementUsingJS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.js.JavaScriptDemo" class="method navigator-link" hash-for-method="scrollUsingJS">scrollUsingJS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.testng.TestNGAllAnnotations" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.testng.TestNGAllAnnotations" class="method navigator-link" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.testng.TestNGAllAnnotations" class="method navigator-link" hash-for-method="test2(abc, 123)">test2(abc, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.testng.TestNGAllAnnotations" class="method navigator-link" hash-for-method="test2(abc, 123)">test2(abc, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.testng.TestNGAllAnnotations" class="method navigator-link" hash-for-method="test2(abc, 123)">test2(abc, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.testng.TestNGAllAnnotations" class="method navigator-link" hash-for-method="test2(abc, 123)">test2(abc, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.testng.TestNGAllAnnotations" class="method navigator-link" hash-for-method="test2(abc, 123)">test2(abc, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.testng.TestNGAllAnnotations" class="method navigator-link" hash-for-method="test2(abc, 123)">test2(abc, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.testng.TestNGAllAnnotations" class="method navigator-link" hash-for-method="test2(abc, 123)">test2(abc, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.testng.TestNGAllAnnotations" class="method navigator-link" hash-for-method="test2(abc, 123)">test2(abc, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.AutoSuggestions" class="method navigator-link" hash-for-method="testAutoSuggestions">testAutoSuggestions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.testng.HelloWorldTestNG" class="method navigator-link" hash-for-method="testHelloWorld">testHelloWorld</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.switchTo.HandlingMultiBrowser" class="method navigator-link" hash-for-method="validateMultipleBrowsers">validateMultipleBrowsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.synechron.selenium.basics.tooltip.ValidateToolTip" class="method navigator-link" hash-for-method="validateToolTip">validateToolTip</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_Suite -->
@@ -123,6 +292,390 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_Suite" class="panel Default_Suite">
+          <div class="suite-Default_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.elements.PrintSearchResults</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printSearchResults">
+                  </a> <!-- printSearchResults -->
+                  <span class="method-name">printSearchResults</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Google Search&quot; aria-label=&quot;Google Search&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwiBi9Ljn6SKAxUlIrkGHYSAG0cQ4dUDCBQ&quot;&gt; is not clickable at point (551, 330). Other element would receive the click: &lt;div class=&quot;pcTkSc&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2ac6ca045c940d28453ca181d267ef4a, clickElement {id=f.7A2F206639ACF0FDF8EE35DB8A0C3E28.d.B9A98EED8139DD159EAD15CD9CC800E2.e.17}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61537}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61537/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (2ac6ca045c940d28453ca181d267ef4a)] -&gt; xpath: //div[@class=&apos;FPdoLc lJ9FBc&apos;]//input[@name=&apos;btnK&apos;]]
+Session ID: 2ac6ca045c940d28453ca181d267ef4a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.synechron.selenium.basics.utils.DriverUtils.click(DriverUtils.java:148)
+	at com.synechron.selenium.basics.elements.PrintSearchResults.printSearchResults(PrintSearchResults.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-failed -->
+          <div class="suite-Default_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.actions.ActiondDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAndDrop">
+                  </a> <!-- dragAndDrop -->
+                  <span class="method-name">dragAndDrop</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [065b57fabc4832d3349ce9d5dfd1a644, get {url=http://jqueryui.com//draggable}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60996}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60996/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 065b57fabc4832d3349ce9d5dfd1a644
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at com.synechron.selenium.basics.utils.ApplicationUtils.launchApplication(ApplicationUtils.java:12)
+	at com.synechron.selenium.basics.actions.ActiondDemo.dragAndDrop(ActiondDemo.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="miscDemo">
+                  </a> <!-- miscDemo -->
+                  <span class="method-name">miscDemo</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: no such frame
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c806da1739694a1e95e2b6a99249f586, switchToFrame {id=0}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61122}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61122/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c806da1739694a1e95e2b6a99249f586
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1108)
+	at com.synechron.selenium.basics.actions.ActiondDemo.miscDemo(ActiondDemo.java:83)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-failed -->
+          <div class="suite-Default_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.waits.WebDriverWaitDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fluentwaitDemo2">
+                  </a> <!-- fluentwaitDemo2 -->
+                  <span class="method-name">fluentwaitDemo2</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.synechron.selenium.basics.waits.WebDriverWaitDemo$2@6e0ff644 (tried for 60 second(s) with 100 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.synechron.selenium.basics.waits.WebDriverWaitDemo.fluentwaitDemo2(WebDriverWaitDemo.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7190d82a6008eb38c46b3704a3aef3d0, getElementText {id=f.9C5B0173577E7F2D43B076B438DBBA0E.d.57F9E1966EF7D9215B9930C465EE7C56.e.2}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60584}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60584/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7190d82a6008eb38c46b3704a3aef3d0)] -&gt; id: counter]
+Session ID: 7190d82a6008eb38c46b3704a3aef3d0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at com.synechron.selenium.basics.waits.WebDriverWaitDemo$2.apply(WebDriverWaitDemo.java:90)
+	at com.synechron.selenium.basics.waits.WebDriverWaitDemo$2.apply(WebDriverWaitDemo.java:88)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webDriverWaitDemo">
+                  </a> <!-- webDriverWaitDemo -->
+                  <span class="method-name">webDriverWaitDemo</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (04cd63879e15b74d6a490f20d637db50)] -&gt; id: demo] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.synechron.selenium.basics.waits.WebDriverWaitDemo.webDriverWaitDemo(WebDriverWaitDemo.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=131.0.2903.99)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [04cd63879e15b74d6a490f20d637db50, isElementDisplayed {id=f.F2E72A93A7A3CA9CB935E4074C67DADA.d.E4882975B28C5F592592B4A643F3E02B.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60865}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\aru03\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60865/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (04cd63879e15b74d6a490f20d637db50)] -&gt; id: demo]
+Session ID: 04cd63879e15b74d6a490f20d637db50
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-failed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.pom.test.FormyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterFormData(Harry, H, Software Engineer)">
+                  </a> <!-- enterFormData(Harry, H, Software Engineer) -->
+                  <span class="method-name">enterFormData</span>
+                  <span class="parameters">(Harry,H,Software Engineer)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterFormData(Aravinda, H, Trainer)">
+                  </a> <!-- enterFormData(Aravinda, H, Trainer) -->
+                  <span class="method-name">enterFormData</span>
+                  <span class="parameters">(Aravinda,H,Trainer)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterFormData(Kavya, K, Director)">
+                  </a> <!-- enterFormData(Kavya, K, Director) -->
+                  <span class="method-name">enterFormData</span>
+                  <span class="parameters">(Kavya,K,Director)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterFormData(Mohsen, N, Managers)">
+                  </a> <!-- enterFormData(Mohsen, N, Managers) -->
+                  <span class="method-name">enterFormData</span>
+                  <span class="parameters">(Mohsen,N,Managers)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterFormData(Giri, L, HR)">
+                  </a> <!-- enterFormData(Giri, L, HR) -->
+                  <span class="method-name">enterFormData</span>
+                  <span class="parameters">(Giri,L,HR)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.testng.HelloWorldTestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHelloWorld">
+                  </a> <!-- testHelloWorld -->
+                  <span class="method-name">testHelloWorld</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.actions.ActiondDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAndDropDemo">
+                  </a> <!-- dragAndDropDemo -->
+                  <span class="method-name">dragAndDropDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mouseMovementDemo">
+                  </a> <!-- mouseMovementDemo -->
+                  <span class="method-name">mouseMovementDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.js.JavaScriptDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollToElementUsingJS">
+                  </a> <!-- scrollToElementUsingJS -->
+                  <span class="method-name">scrollToElementUsingJS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollUsingJS">
+                  </a> <!-- scrollUsingJS -->
+                  <span class="method-name">scrollUsingJS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.dropdown.NonSelectTagDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropDownUsingSelect">
+                  </a> <!-- dropDownUsingSelect -->
+                  <span class="method-name">dropDownUsingSelect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropDowntest">
+                  </a> <!-- dropDowntest -->
+                  <span class="method-name">dropDowntest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.switchTo.HandlingFrames</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAndDropDemo">
+                  </a> <!-- dragAndDropDemo -->
+                  <span class="method-name">dragAndDropDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.switchTo.HandlingMultiBrowser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMultipleBrowsers">
+                  </a> <!-- validateMultipleBrowsers -->
+                  <span class="method-name">validateMultipleBrowsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.tooltip.ValidateToolTip</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateToolTip">
+                  </a> <!-- validateToolTip -->
+                  <span class="method-name">validateToolTip</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.data.RegisterCustomer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropDownUsingSelect">
+                  </a> <!-- dropDownUsingSelect -->
+                  <span class="method-name">dropDownUsingSelect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
           <div class="suite-Default_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -138,9 +691,118 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test2">
-                  </a> <!-- test2 -->
+                  <a name="test2(abc, 123)">
+                  </a> <!-- test2(abc, 123) -->
                   <span class="method-name">test2</span>
+                  <span class="parameters">(abc,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2(abc, 123)">
+                  </a> <!-- test2(abc, 123) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">(abc,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2(abc, 123)">
+                  </a> <!-- test2(abc, 123) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">(abc,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2(abc, 123)">
+                  </a> <!-- test2(abc, 123) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">(abc,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2(abc, 123)">
+                  </a> <!-- test2(abc, 123) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">(abc,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2(abc, 123)">
+                  </a> <!-- test2(abc, 123) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">(abc,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2(abc, 123)">
+                  </a> <!-- test2(abc, 123) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">(abc,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2(abc, 123)">
+                  </a> <!-- test2(abc, 123) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">(abc,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.switchTo.HandlingAlerts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertWithTextBoxDemo">
+                  </a> <!-- alertWithTextBoxDemo -->
+                  <span class="method-name">alertWithTextBoxDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleAlertsDemo">
+                  </a> <!-- handleAlertsDemo -->
+                  <span class="method-name">handleAlertsDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.waits.WebDriverWaitDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fluentWaitDemo">
+                  </a> <!-- fluentWaitDemo -->
+                  <span class="method-name">fluentWaitDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synechron.selenium.basics.AutoSuggestions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAutoSuggestions">
+                  </a> <!-- testAutoSuggestions -->
+                  <span class="method-name">testAutoSuggestions</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -157,7 +819,20 @@
 &lt;suite name=&quot;Default Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;SeleniumTraining&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.AutoSuggestions&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.waits.WebDriverWaitDemo&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.testng.HelloWorldTestNG&quot;/&gt;
       &lt;class name=&quot;com.synechron.selenium.basics.testng.TestNGAllAnnotations&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.tooltip.ValidateToolTip&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.actions.ActiondDemo&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.dropdown.NonSelectTagDemo&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.data.RegisterCustomer&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.elements.PrintSearchResults&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.pom.test.FormyTest&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.js.JavaScriptDemo&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.switchTo.HandlingAlerts&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.switchTo.HandlingFrames&quot;/&gt;
+      &lt;class name=&quot;com.synechron.selenium.basics.switchTo.HandlingMultiBrowser&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- SeleniumTraining --&gt;
 &lt;/suite&gt; &lt;!-- Default Suite --&gt;
@@ -171,7 +846,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SeleniumTraining (1 class)</span>
+                <span class="test-name">SeleniumTraining (14 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,20 +872,148 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(34);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test2')
-data.setCell(0, 2, 'com.synechron.selenium.basics.testng.TestNGAllAnnotations')
-data.setCell(0, 3, 1);
+data.setCell(0, 1, 'fluentwaitDemo2')
+data.setCell(0, 2, 'com.synechron.selenium.basics.waits.WebDriverWaitDemo')
+data.setCell(0, 3, 60285);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test1')
-data.setCell(1, 2, 'com.synechron.selenium.basics.testng.TestNGAllAnnotations')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'mouseMovementDemo')
+data.setCell(1, 2, 'com.synechron.selenium.basics.actions.ActiondDemo')
+data.setCell(1, 3, 19063);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateMultipleBrowsers')
+data.setCell(2, 2, 'com.synechron.selenium.basics.switchTo.HandlingMultiBrowser')
+data.setCell(2, 3, 18390);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'handleAlertsDemo')
+data.setCell(3, 2, 'com.synechron.selenium.basics.switchTo.HandlingAlerts')
+data.setCell(3, 3, 16255);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'alertWithTextBoxDemo')
+data.setCell(4, 2, 'com.synechron.selenium.basics.switchTo.HandlingAlerts')
+data.setCell(4, 3, 15968);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dropDownUsingSelect')
+data.setCell(5, 2, 'com.synechron.selenium.basics.data.RegisterCustomer')
+data.setCell(5, 3, 15408);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'printSearchResults')
+data.setCell(6, 2, 'com.synechron.selenium.basics.elements.PrintSearchResults')
+data.setCell(6, 3, 11699);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'dragAndDropDemo')
+data.setCell(7, 2, 'com.synechron.selenium.basics.switchTo.HandlingFrames')
+data.setCell(7, 3, 11147);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'webDriverWaitDemo')
+data.setCell(8, 2, 'com.synechron.selenium.basics.waits.WebDriverWaitDemo')
+data.setCell(8, 3, 10613);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'dropDownUsingSelect')
+data.setCell(9, 2, 'com.synechron.selenium.basics.dropdown.NonSelectTagDemo')
+data.setCell(9, 3, 10356);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testAutoSuggestions')
+data.setCell(10, 2, 'com.synechron.selenium.basics.AutoSuggestions')
+data.setCell(10, 3, 10011);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'dragAndDrop')
+data.setCell(11, 2, 'com.synechron.selenium.basics.actions.ActiondDemo')
+data.setCell(11, 3, 8360);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'scrollToElementUsingJS')
+data.setCell(12, 2, 'com.synechron.selenium.basics.js.JavaScriptDemo')
+data.setCell(12, 3, 8178);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateToolTip')
+data.setCell(13, 2, 'com.synechron.selenium.basics.tooltip.ValidateToolTip')
+data.setCell(13, 3, 8075);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'dropDowntest')
+data.setCell(14, 2, 'com.synechron.selenium.basics.dropdown.NonSelectTagDemo')
+data.setCell(14, 3, 7390);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'scrollUsingJS')
+data.setCell(15, 2, 'com.synechron.selenium.basics.js.JavaScriptDemo')
+data.setCell(15, 3, 6651);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'miscDemo')
+data.setCell(16, 2, 'com.synechron.selenium.basics.actions.ActiondDemo')
+data.setCell(16, 3, 5675);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'dragAndDropDemo')
+data.setCell(17, 2, 'com.synechron.selenium.basics.actions.ActiondDemo')
+data.setCell(17, 3, 3724);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'enterFormData')
+data.setCell(18, 2, 'com.synechron.selenium.basics.pom.test.FormyTest')
+data.setCell(18, 3, 3488);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'fluentWaitDemo')
+data.setCell(19, 2, 'com.synechron.selenium.basics.waits.WebDriverWaitDemo')
+data.setCell(19, 3, 3382);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'enterFormData')
+data.setCell(20, 2, 'com.synechron.selenium.basics.pom.test.FormyTest')
+data.setCell(20, 3, 1848);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'enterFormData')
+data.setCell(21, 2, 'com.synechron.selenium.basics.pom.test.FormyTest')
+data.setCell(21, 3, 1273);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'enterFormData')
+data.setCell(22, 2, 'com.synechron.selenium.basics.pom.test.FormyTest')
+data.setCell(22, 3, 1255);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'enterFormData')
+data.setCell(23, 2, 'com.synechron.selenium.basics.pom.test.FormyTest')
+data.setCell(23, 3, 1099);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testHelloWorld')
+data.setCell(24, 2, 'com.synechron.selenium.basics.testng.HelloWorldTestNG')
+data.setCell(24, 3, 2);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'test2')
+data.setCell(25, 2, 'com.synechron.selenium.basics.testng.TestNGAllAnnotations')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'test2')
+data.setCell(26, 2, 'com.synechron.selenium.basics.testng.TestNGAllAnnotations')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'test2')
+data.setCell(27, 2, 'com.synechron.selenium.basics.testng.TestNGAllAnnotations')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'test1')
+data.setCell(28, 2, 'com.synechron.selenium.basics.testng.TestNGAllAnnotations')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'test2')
+data.setCell(29, 2, 'com.synechron.selenium.basics.testng.TestNGAllAnnotations')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'test2')
+data.setCell(30, 2, 'com.synechron.selenium.basics.testng.TestNGAllAnnotations')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'test2')
+data.setCell(31, 2, 'com.synechron.selenium.basics.testng.TestNGAllAnnotations')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'test2')
+data.setCell(32, 2, 'com.synechron.selenium.basics.testng.TestNGAllAnnotations')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'test2')
+data.setCell(33, 2, 'com.synechron.selenium.basics.testng.TestNGAllAnnotations')
+data.setCell(33, 3, 0);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 ms</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -243,47 +1046,390 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">22 ms</span>
+                <span class="method-start">48 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.AutoSuggestions</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAutoSuggestions</span>
+                <span class="method-start">133 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.waits.WebDriverWaitDemo</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">prepare</span>
+                <span class="method-start">10151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fluentWaitDemo</span>
+                <span class="method-start">13736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">17118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepare</span>
+                <span class="method-start">18562 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fluentwaitDemo2</span>
+                <span class="method-start">22887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">83235 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepare</span>
+                <span class="method-start">84529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">webDriverWaitDemo</span>
+                <span class="method-start">88301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">98966 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.testng.HelloWorldTestNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testHelloWorld</span>
+                <span class="method-start">100058 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.testng.TestNGAllAnnotations</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">43 ms</span>
+                <span class="method-start">100061 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">56 ms</span>
+                <span class="method-start">100063 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test1</span>
-                <span class="method-start">58 ms</span>
+                <span class="method-start">100067 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">63 ms</span>
+                <span class="method-start">100068 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">66 ms</span>
+                <span class="method-start">100072 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test2</span>
-                <span class="method-start">67 ms</span>
+                <span class="method-name">test2(abc, 123)</span>
+                <span class="method-start">100073 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">69 ms</span>
+                <span class="method-start">100074 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">100083 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2(abc, 123)</span>
+                <span class="method-start">100084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">100085 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">100086 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2(abc, 123)</span>
+                <span class="method-start">100087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">100088 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">100088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">100089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test2(abc, 123)</span>
+                <span class="method-start">100089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">100090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2(abc, 123)</span>
+                <span class="method-start">100091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">100092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test2(abc, 123)</span>
+                <span class="method-start">100093 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">100093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">100095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">100095 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">100096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test2(abc, 123)</span>
+                <span class="method-start">100096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">100098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2(abc, 123)</span>
+                <span class="method-start">100098 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">71 ms</span>
+                <span class="method-start">100099 ms</span>
               </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">100099 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.tooltip.ValidateToolTip</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateToolTip</span>
+                <span class="method-start">100101 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.actions.ActiondDemo</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">108180 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dragAndDrop</span>
+                <span class="method-start">111535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">119895 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">120467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dragAndDropDemo</span>
+                <span class="method-start">124185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127910 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">129220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">miscDemo</span>
+                <span class="method-start">132908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">138583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">139935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mouseMovementDemo</span>
+                <span class="method-start">143395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">162462 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.dropdown.NonSelectTagDemo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dropDownUsingSelect</span>
+                <span class="method-start">163819 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dropDowntest</span>
+                <span class="method-start">174179 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.data.RegisterCustomer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dropDownUsingSelect</span>
+                <span class="method-start">181572 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.elements.PrintSearchResults</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">printSearchResults</span>
+                <span class="method-start">196980 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.pom.test.FormyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createDriver</span>
+                <span class="method-start">208679 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">212620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterFormData(Aravinda, H, Trainer)</span>
+                <span class="method-start">214085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">217573 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">217573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterFormData(Harry, H, Software Engineer)</span>
+                <span class="method-start">218181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">219459 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">219459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">enterFormData(Mohsen, N, Managers)</span>
+                <span class="method-start">221099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">222947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">222958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterFormData(Giri, L, HR)</span>
+                <span class="method-start">223686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">224941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">224941 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">enterFormData(Kavya, K, Director)</span>
+                <span class="method-start">225598 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">226697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">226697 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.js.JavaScriptDemo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scrollToElementUsingJS</span>
+                <span class="method-start">228388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollUsingJS</span>
+                <span class="method-start">236566 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.switchTo.HandlingAlerts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">alertWithTextBoxDemo</span>
+                <span class="method-start">243219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">handleAlertsDemo</span>
+                <span class="method-start">259187 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.switchTo.HandlingFrames</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dragAndDropDemo</span>
+                <span class="method-start">275449 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.switchTo.HandlingMultiBrowser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateMultipleBrowsers</span>
+                <span class="method-start">286596 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synechron.selenium.basics.testng.TestNGAllAnnotations</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">73 ms</span>
+                <span class="method-start">304986 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">124 ms</span>
+                <span class="method-start">305044 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

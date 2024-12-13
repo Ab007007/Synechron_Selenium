@@ -9,8 +9,16 @@ public class TestNGAllAnnotations {
     @DataProvider
     public Object[][] dpMethod() {
 
-        return new Object[][]{
-                
+        return new Object[][]
+        {
+                new Object[]{"abc",123},
+                new Object[]{"abc",123},
+                new Object[]{"abc",123},
+                new Object[]{"abc",123},
+                new Object[]{"abc",123},
+                new Object[]{"abc",123},
+                new Object[]{"abc",123},
+                new Object[]{"abc",123},
         };
     }
 
@@ -64,9 +72,9 @@ public class TestNGAllAnnotations {
         System.out.println("Test 1");
     }
 
-    @Test
-    public void test2() {
-        System.out.println("Test 2");
+    @Test(dataProvider = "dpMethod")
+    public void test2(String name, int value) {
+        System.out.println("Test 2" + name + " : "  + value);
     }
 
 
